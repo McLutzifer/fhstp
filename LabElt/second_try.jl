@@ -7,8 +7,9 @@ df = DataFrame(
     year    = [2010, 2011, 2012, 2013, 2010, 20,11, 2012, 2013]
 )
 
-pyplot()
 
+pyplot()
+mycolours = [:green :orange] # note that the serie is piled up alphabetically
 
 
 #=
