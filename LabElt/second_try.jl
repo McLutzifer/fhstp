@@ -14,8 +14,8 @@ df_birne = DataFrame(
 )
 
 
-println(df_birne)
-
+plot(U_birne, I_birne, label="my label")
+#plot(U_birne, R_birne, label="my label")
 #pyplot()
 #mycolours = [:green :orange] # note that the serie is piled up alphabetically
 
