@@ -18,7 +18,6 @@ mycolours = [:green :orange] # note that the serie is piled up alphabetically
 
 
 #=
-using DataFrames, Plots, StatsPlots
 df = DataFrame(
   fruit       = ["orange","orange","orange","orange","apple","apple","apple","apple"],
   year        = [2010,2011,2012,2013,2010,2011,2012,2013],
