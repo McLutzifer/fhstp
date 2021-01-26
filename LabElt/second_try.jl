@@ -1,20 +1,23 @@
-using Plots
+#using Plots
 using DataFrames
-using StatsPlots
+#using StatsPlots
 
 df = DataFrame(
     fruit   = ["orange", "orange", "orange", "orange", "apple", "apple", "apple", "apple"],
-    year    = [2010, 2011, 2012, 2013, 2010, 20,11, 2012, 2013]
+    year    = [2010, 2011, 2012, 2013, 2010, 2011, 2012, 2013]
 )
 
-U_birne = [0, 4, 8, 10, 12, 14]
-I_birne = [0, 83.3, 167, 208, 250, 292]
-R_birne = [0, 48.02, 47.9, 48.08, 48, 47.95]
+df_birne = DataFrame(
+    U_birne = [0, 4, 8, 10, 12, 14],
+    I_birne = [0, 83.3, 167, 208, 250, 292],
+    R_birne = [0, 48.02, 47.9, 48.08, 48, 47.95]
+)
 
 
+println(df_birne)
 
-pyplot()
-mycolours = [:green :orange] # note that the serie is piled up alphabetically
+#pyplot()
+#mycolours = [:green :orange] # note that the serie is piled up alphabetically
 
 
 #=
