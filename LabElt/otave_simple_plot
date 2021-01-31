@@ -1,0 +1,15 @@
+# Created by Octave 5.2.0, Sun Jan 31 21:25:23 2021 CET <lukas@lukas-ThinkPad-P43s>
+# name: x
+# type: range
+# base, limit, increment
+-10 10 0.10000000000000001
+
+
+
+>> x = -10:0.1:10;
+>> plot(x, sin (x));
+>> xlabel("x");
+>> ylabel("y");
+>> title ("Simple 2-D Plot");
+>>
+
