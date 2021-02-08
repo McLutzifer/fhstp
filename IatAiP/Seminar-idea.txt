@@ -1,3 +1,6 @@
 # ML Time series
 
 https://medium.com/analytics-steps/introduction-to-time-series-analysis-time-series-forecasting-machine-learning-methods-models-ecaa76a7b0e3
+
+https://de.m.wikipedia.org/wiki/Zeitreihenanalyse
+
