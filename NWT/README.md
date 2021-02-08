@@ -1,4 +1,4 @@
 Networking protokol
 
-- [ ] DHCP is missing
+- [x] DHCP is missing
 - [ ] wireshark
