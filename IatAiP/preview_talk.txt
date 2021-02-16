@@ -1,4 +1,5 @@
 
 keine Prüfung
 
-SeminarArbeit:
+SeminarArbeit:   hauptteil der Note
+kleiner Teil trägt bei: Talk in Klasse
