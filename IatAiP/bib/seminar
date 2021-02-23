@@ -1,0 +1,31 @@
+% Encoding: UTF-8
+
+@Book{McKinney2018,
+  author    = {McKinney, Wes},
+  publisher = {O'Reilly},
+  title     = {Datenanalyse mit Python: Auswertung von Daten mit Pandas, NumPy und IPython},
+  year      = {2018},
+}
+
+@InProceedings{Krollner2010,
+  author    = {Krollner, Bjoern and Vanstone, Bruce J and Finnie, Gavin R},
+  booktitle = {ESANN},
+  title     = {Financial time series forecasting with machine learning techniques: a survey.},
+  year      = {2010},
+}
+
+@Article{Ahmed2010,
+  author    = {Nesreen K. Ahmed and Amir F. Atiya and Neamat El Gayar and Hisham El-Shishiny},
+  journal   = {Econometric Reviews},
+  title     = {An Empirical Comparison of Machine Learning Models for Time Series Forecasting},
+  year      = {2010},
+  number    = {5-6},
+  pages     = {594-621},
+  volume    = {29},
+  doi       = {10.1080/07474938.2010.481556},
+  eprint    = {https://doi.org/10.1080/07474938.2010.481556},
+  publisher = {Taylor & Francis},
+  url       = {https://doi.org/10.1080/07474938.2010.481556},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
