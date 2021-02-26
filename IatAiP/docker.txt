@@ -1,1 +1,25 @@
 
+1 Virtualization
+1.1 Containervirtualization
+1.2 Container vs. Virtual Machines
+1.3 Advantage / Disadvantage Docker
+
+2 Docker Workflow / Docker Engine
+2.1 Server (daemon)
+2.2 REST API
+2.3 Client
+
+3 Docker Architecture
+3.1 daemon
+3.2 Client
+3.3 Registry
+3.4 Docker Objects
+3.4.1 Images
+3.4.2 Containers
+3.4.3 Network
+3.4.4 Storage
+
+4 Docker in the Industry 
+4.1 Kubernetes
+4.2 DevOps / Cloud
+4.3 Microservices
