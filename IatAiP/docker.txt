@@ -20,7 +20,7 @@
 3.4.4 Storage
 
 4 Docker in the Industry 
-4.1 Kubernetes
+4.1 Kubernetes and Swarm
 4.2 DevOps / Cloud
 4.2.1 Modernization of traditional applications
 4.2.2 Migration
