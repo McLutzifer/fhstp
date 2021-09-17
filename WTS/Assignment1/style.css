@@ -1,6 +1,49 @@
+html {
+    color: white;
+    background-color: hsl(197, 50%, 34%);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('background.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    margin-top: 20%;
+  }
 
 
+a {
+    color: white;
+}
+
+.mainHeading {
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+    font-weight: 400;
+
+}
 
 .menu {
+    font-size: 1.5em;
     text-align: center;
+}
+
+#button {
+    text-align: center;
+}
+
+#learnMore {
+    font-size: 1.5em;
+    color: white;
+    align-self: center;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 700;
+    padding: 10px 63px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 400;
 }
