@@ -6,4 +6,5 @@ function onButtonClick() {
 
 function colorChange() {
     document.getElementById('headingh2').style.color = 'red';
+    document.getElementById('headingh2').style.backgroundColor = 'yellow';
 }
