@@ -16,7 +16,7 @@ a {
     color: white;
 }
 
-.mainHeading {
+#mainHeading {
     text-align: center;
     font-size: 3em;
     text-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
@@ -24,7 +24,7 @@ a {
 
 }
 
-.menu {
+#menu {
     font-size: 1.5em;
     text-align: center;
 }
