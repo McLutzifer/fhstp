@@ -27,5 +27,14 @@ const renderChess = () => {
 
 
 const invertieren = () => {
-    
+    for (var i = 0; i < 8 * 8; i++) {
+        var element = document.getElementById(i);
+        var color = element.style.backgroundColor;
+        if (color == "rgb(255, 255, 255") {
+            element.style.backgroundColor = "rgb(0, 0, 0)";
+        }
+        else {
+            element.style.backgroundColor = "#fff";
+        }
+    }
 }
