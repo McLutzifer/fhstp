@@ -4,6 +4,7 @@ const renderChess = (startColor) => {
     let widthAndHeight = 60;
     for (let j = 0; j < 8; j++) {
         for (let i = 0; i < 8; i++) {
+
             field = document.createElement("div");
             field.style.position = "absolute";
             field.style.width = widthAndHeight + "px";
@@ -20,8 +21,8 @@ const renderChess = (startColor) => {
             field.style.background = color;
             field.id = i + j * 8;
         document.getElementById("chess").appendChild(row);
+        }
     }
-
 }
 
 
