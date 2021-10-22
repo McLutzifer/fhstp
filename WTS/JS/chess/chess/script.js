@@ -45,7 +45,7 @@ var chessBoard =  {
 "placeFigures": function () {
         var serverKommunikation = new XMLHttpRequest();
             serverKommunikation.addEventListener("load", function () {
-                alert(this.responseText);
+                var jsonObjekt = JSON.parse(this.responseText);
             });
             serverKommunikation.open("GET", "https://atp.fhstp.ac.at/chessDataJSONDemo");
             serverKommunikation.send();
@@ -77,7 +77,6 @@ var inputField2 = document.querySelector("#color");
 
 buttonElement = document.querySelector("#placeFigures");
 var myCallbackFunction2 = function () {
-    
     chessBoard.placeFigures();
 };
 
