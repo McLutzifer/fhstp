@@ -24,6 +24,12 @@ var chessBoard =  {
     }
     }
 },
+"makeFieldRed": function (fieldId) {
+    var element = this.fields[fieldId];
+  element.style.backgroundColor = "#ff0000";
+
+},
+
 "invertColor": function () {
     for (var i = 0; i < fields.length; i++) {
     var color = fields[i].style.backgroundColor;

@@ -8,8 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <button type="button" onclick="drawChessboard('#fff');">Render Chees</button>
-    <button type="button" onclick="invertColor();">Invertieren</button>
+    <button type="button" onclick="chessBoard.drawChessboard();">Render Chess</button>
+    <button type="button" onclick="chessBoard.invertColor();">Invertieren</button>
+    <button type="button" onclick="chessBoard.makeFieldRed(11);">Farbe des 12. Feldes</button>
+
     <div id="chess" class="chess">
 
     </div>
