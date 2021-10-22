@@ -40,6 +40,15 @@ var chessBoard =  {
         this.fields[i].style.backgroundColor = "#fff";
     }
     }   
+},
+
+"placeFigures": function () {
+        var serverKommunikation = new XMLHttpRequest();
+            serverKommunikation.addEventListener("load", function () {
+                alert(this.responseText);
+            });
+            serverKommunikation.open("GET", "https://atp.fhstp.ac.at/chessDataJSONDemo");
+            serverKommunikation.send();
 }
 }
 
@@ -63,5 +72,14 @@ var inputField2 = document.querySelector("#color");
 };
 
 
-buttonElement.addEventListener("click", myCallbackFunction);
+
+
+
+buttonElement = document.querySelector("#placeFigures");
+var myCallbackFunction2 = function () {
     
+    chessBoard.placeFigures();
+};
+
+buttonElement.addEventListener("click", myCallbackFunction2);
+
