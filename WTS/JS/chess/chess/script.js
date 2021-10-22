@@ -1,5 +1,4 @@
-
-let field;
+let fields = [];
 const renderChess = (startColor) => {
     let widthAndHeight = 60;
     for (let j = 0; j < 8; j++) {
@@ -18,23 +17,23 @@ const renderChess = (startColor) => {
                 else
                     color = "#000"
             }
-            field.style.background = color;
+            field.style.backgroundColor = color;
             field.id = i + j * 8;
-        document.getElementById("chess").appendChild(row);
+            fields.push(field)
+        document.getElementById("chess").appendChild(field);
         }
     }
 }
 
 
 const invertieren = () => {
-    for (var i = 0; i < 8 * 8; i++) {
-        var element = document.getElementById(i);
-        var color = element.style.backgroundColor;
+    for (var i= 0; i < fields.length; i ++) {
+        var color = fields[i].style.backgroundColor;
         if (color == "rgb(255, 255, 255") {
-            element.style.backgroundColor = "rgb(0, 0, 0)";
+            fields[i].style.backgroundColor = "rgb(0, 0, 0)";
         }
         else {
-            element.style.backgroundColor = "#fff";
+            fields[i].style.backgroundColor = "#fff";
         }
     }
 }
