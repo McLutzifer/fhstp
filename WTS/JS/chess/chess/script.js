@@ -24,3 +24,8 @@ const renderChess = () => {
     }
 
 }
+
+
+const invertieren = () => {
+    
+}
