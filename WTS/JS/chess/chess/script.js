@@ -24,21 +24,44 @@ var chessBoard =  {
     }
     }
 },
-"makeFieldRed": function (fieldId) {
+"colorField": function (fieldId, color) {
     var element = this.fields[fieldId];
-  element.style.backgroundColor = "#ff0000";
+  element.style.backgroundColor = color;
 
 },
 
 "invertColor": function () {
-    for (var i = 0; i < fields.length; i++) {
-    var color = fields[i].style.backgroundColor;
+    for (var i = 0; i < this.fields.length; i++) {
+    var color = this.fields[i].style.backgroundColor;
     if(color == "rgb(255, 255, 255)") {
-        fields[i].style.backgroundColor = "#000";
+        this.fields[i].style.backgroundColor = "#000";
     }
     else {
-        fields[i].style.backgroundColor = "#fff";
+        this.fields[i].style.backgroundColor = "#fff";
     }
     }   
 }
 }
+
+
+var buttonElement = document.querySelector("#renderChess");
+buttonElement.onclick = function () {
+    chessBoard.drawChessboard();
+};
+
+buttonElement = document.querySelector("#colorButton");
+
+/*buttonElement.onclick = function () {
+    var inputField1 = document.querySelector("#fieldId");
+var inputField2 = document.querySelector("#color");
+    chessBoard.colorField(inputField1.value, inputField2.value);
+};*/
+var myCallbackFunction = function () {
+    var inputField1 = document.querySelector("#fieldId");
+var inputField2 = document.querySelector("#color");
+    chessBoard.colorField(inputField1.value, inputField2.value);
+};
+
+
+buttonElement.addEventListener("click", myCallbackFunction);
+    

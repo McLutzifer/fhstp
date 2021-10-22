@@ -8,10 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <button type="button" onclick="chessBoard.drawChessboard();">Render Chess</button>
-    <button type="button" onclick="chessBoard.invertColor();">Invertieren</button>
-    <button type="button" onclick="chessBoard.makeFieldRed(11);">Farbe des 12. Feldes</button>
-
+    <button id="renderChess" type="button">Render Chess</button>
+    <button type="button">Invertieren</button>
+    <button type="button" id="colorButton">Feld einfärben</button>
+    <input type="text" id="fieldId" value="fieldId" />
+    <input type="text" id="color" value="color" />
     <div id="chess" class="chess">
 
     </div>
