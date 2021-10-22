@@ -47,7 +47,7 @@ var chessBoard =  {
             serverKommunikation.addEventListener("load", function () {
                 var jsonObjekt = JSON.parse(this.responseText);
       for (var propertyName in jsonObjekt) {
-               this.fields[parseInt(propertyName)].innerHTML = jsonObjekt[propertyName];
+               this.fields[propertyName].innerHTML = jsonObjekt[propertyName];
       }
             });
             serverKommunikation.open("GET", "https://atp.fhstp.ac.at/chessDataJSONDemo");
